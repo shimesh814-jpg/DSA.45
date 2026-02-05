@@ -5,7 +5,7 @@ int main()
       int num;
       cout<<"enter the value of num:"<<endl;
       cin>>num;
-      int count;
+      int count=0;
        for(int i=1;i*i<=num;i++)
        {
         if(num%i==0)
