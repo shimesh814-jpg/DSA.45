@@ -28,5 +28,12 @@ int main()
 
     cout << "Number of unique elements: " << i + 1 << endl;
 
+    cout << "UNIQUE Elements in the array:"<<endl;
+    
+    for(int k= 0; k <= i; k++)
+    {
+        cout << arr[k];
+    }
+
     return 0;
 }
