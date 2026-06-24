@@ -1,36 +1,73 @@
 class Solution {
 public:
-
-    // Function to set entire row and column to 0 if an element in the matrix is 0
     void setZeroes(vector<vector<int>>& matrix) {
-        // Get number of rows
-        int m = matrix.size();
-        // Get number of columns
-        int n = matrix[0].size();
 
-        // Create row marker array
-        vector<int> row(m, 0);
-        // Create column marker array
-        vector<int> col(n, 0);
+        int n = matrix.size();      // rows
+        int m = matrix[0].size();   // cols
 
-        // First pass: mark rows and columns that need to be zeroed
-        for (int i = 0; i < m; i++) {
-            for (int j = 0; j < n; j++) {
-                // If element is zero, mark its row and column
-                if (matrix[i][j] == 0) {
-                    row[i] = 1;
-                    col[j] = 1;
+        bool firstRowImpacted = false;
+        bool firstColImpacted = false;
+
+        // Check first row
+        for(int col = 0; col < m; col++)
+        {
+            if(matrix[0][col] == 0)
+            {
+                firstRowImpacted = true;
+                break;
+            }
+        }
+
+        // Check first column
+        for(int row = 0; row < n; row++)
+        {
+            if(matrix[row][0] == 0)
+            {
+                firstColImpacted = true;
+                break;
+            }
+        }
+
+        // Set markers
+        for(int i = 1; i < n; i++)
+        {
+            for(int j = 1; j < m; j++)
+            {
+                if(matrix[i][j] == 0)
+                {
+                    matrix[i][0] = 0;
+                    matrix[0][j] = 0;
                 }
             }
         }
 
-        // Second pass: set cells to zero based on markers
-        for (int i = 0; i < m; i++) {
-            for (int j = 0; j < n; j++) {
-                // If the row or column is marked, set cell to zero
-                if (row[i] == 1 || col[j] == 1) {
+        // Fill zeros using markers
+        for(int i = 1; i < n; i++)
+        {
+            for(int j = 1; j < m; j++)
+            {
+                if(matrix[i][0] == 0 || matrix[0][j] == 0)
+                {
                     matrix[i][j] = 0;
                 }
+            }
+        }
+
+        // First row
+        if(firstRowImpacted)
+        {
+            for(int j = 0; j < m; j++)
+            {
+                matrix[0][j] = 0;
+            }
+        }
+
+        // First column
+        if(firstColImpacted)
+        {
+            for(int i = 0; i < n; i++)
+            {
+                matrix[i][0] = 0;
             }
         }
     }
