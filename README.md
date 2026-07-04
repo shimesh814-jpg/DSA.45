@@ -67,4 +67,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0151-reverse-words-in-a-string](https://github.com/shimesh814-jpg/DSA.45/tree/master/0151-reverse-words-in-a-string) |
+## Math
+|  |
+| ------- |
+| [0009-palindrome-number](https://github.com/shimesh814-jpg/DSA.45/tree/master/0009-palindrome-number) |
 <!---LeetCode Topics End-->
