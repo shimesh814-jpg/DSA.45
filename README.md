@@ -16,6 +16,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0152-maximum-product-subarray](https://github.com/shimesh814-jpg/DSA.45/tree/master/0152-maximum-product-subarray) |
 | [0493-reverse-pairs](https://github.com/shimesh814-jpg/DSA.45/tree/master/0493-reverse-pairs) |
 | [0704-binary-search](https://github.com/shimesh814-jpg/DSA.45/tree/master/0704-binary-search) |
+| [1838-frequency-of-the-most-frequent-element](https://github.com/shimesh814-jpg/DSA.45/tree/master/1838-frequency-of-the-most-frequent-element) |
 ## Matrix
 |  |
 | ------- |
@@ -46,12 +47,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0056-merge-intervals](https://github.com/shimesh814-jpg/DSA.45/tree/master/0056-merge-intervals) |
 | [0075-sort-colors](https://github.com/shimesh814-jpg/DSA.45/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/shimesh814-jpg/DSA.45/tree/master/0088-merge-sorted-array) |
+| [1838-frequency-of-the-most-frequent-element](https://github.com/shimesh814-jpg/DSA.45/tree/master/1838-frequency-of-the-most-frequent-element) |
 ## Binary Search
 |  |
 | ------- |
 | [0035-search-insert-position](https://github.com/shimesh814-jpg/DSA.45/tree/master/0035-search-insert-position) |
 | [0493-reverse-pairs](https://github.com/shimesh814-jpg/DSA.45/tree/master/0493-reverse-pairs) |
 | [0704-binary-search](https://github.com/shimesh814-jpg/DSA.45/tree/master/0704-binary-search) |
+| [1838-frequency-of-the-most-frequent-element](https://github.com/shimesh814-jpg/DSA.45/tree/master/1838-frequency-of-the-most-frequent-element) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -81,4 +84,16 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0007-reverse-integer](https://github.com/shimesh814-jpg/DSA.45/tree/master/0007-reverse-integer) |
 | [0009-palindrome-number](https://github.com/shimesh814-jpg/DSA.45/tree/master/0009-palindrome-number) |
+## Greedy
+|  |
+| ------- |
+| [1838-frequency-of-the-most-frequent-element](https://github.com/shimesh814-jpg/DSA.45/tree/master/1838-frequency-of-the-most-frequent-element) |
+## Sliding Window
+|  |
+| ------- |
+| [1838-frequency-of-the-most-frequent-element](https://github.com/shimesh814-jpg/DSA.45/tree/master/1838-frequency-of-the-most-frequent-element) |
+## Prefix Sum
+|  |
+| ------- |
+| [1838-frequency-of-the-most-frequent-element](https://github.com/shimesh814-jpg/DSA.45/tree/master/1838-frequency-of-the-most-frequent-element) |
 <!---LeetCode Topics End-->
