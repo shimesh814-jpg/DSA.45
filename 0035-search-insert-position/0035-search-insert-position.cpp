@@ -23,6 +23,6 @@ public:
         }
     }
 
-    return low;  // <-- this is the only real change
+    return low;  //  this is the only real change
 }
 };
