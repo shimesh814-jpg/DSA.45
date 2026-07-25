@@ -18,6 +18,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0162-find-peak-element](https://github.com/shimesh814-jpg/DSA.45/tree/master/0162-find-peak-element) |
 | [0493-reverse-pairs](https://github.com/shimesh814-jpg/DSA.45/tree/master/0493-reverse-pairs) |
 | [0704-binary-search](https://github.com/shimesh814-jpg/DSA.45/tree/master/0704-binary-search) |
+| [1752-check-if-array-is-sorted-and-rotated](https://github.com/shimesh814-jpg/DSA.45/tree/master/1752-check-if-array-is-sorted-and-rotated) |
 | [1838-frequency-of-the-most-frequent-element](https://github.com/shimesh814-jpg/DSA.45/tree/master/1838-frequency-of-the-most-frequent-element) |
 ## Matrix
 |  |
