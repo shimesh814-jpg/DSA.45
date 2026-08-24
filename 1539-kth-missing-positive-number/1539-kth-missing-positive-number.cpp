@@ -1,19 +1,24 @@
 class Solution {
 public:
-    int findKthPositive(vector<int>& nums, int k) {
-        int left = 0, right = nums.size();
-        
-        while (left < right) {
-            int mid = left + (right - left) / 2;
-            // missing numbers before nums[mid] = nums[mid] - (mid + 1)
-            if (nums[mid] - (mid + 1) < k) {
-                left = mid + 1;
-            } else {
-                right = mid;
+    int findKthPositive(vector<int>& arr, int k) {
+        int n = arr.size();
+        int i = 0;
+        int num =1;
+        while(k>0)
+        {
+            if(i<n && arr[i]==num)
+            {
+                i++;
             }
+            else{
+                k--;
+            }
+            if(k==0)
+            {
+                return num;
+            }
+            num++;
         }
-        
-        // 'left' = count of elements confirmed to be before the missing target
-        return left + k;
+        return -1;
     }
 };
