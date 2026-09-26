@@ -37,6 +37,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/shimesh814-jpg/DSA.45/tree/master/1658-minimum-operations-to-reduce-x-to-zero) |
 | [1752-check-if-array-is-sorted-and-rotated](https://github.com/shimesh814-jpg/DSA.45/tree/master/1752-check-if-array-is-sorted-and-rotated) |
 | [1838-frequency-of-the-most-frequent-element](https://github.com/shimesh814-jpg/DSA.45/tree/master/1838-frequency-of-the-most-frequent-element) |
+| [2149-rearrange-array-elements-by-sign](https://github.com/shimesh814-jpg/DSA.45/tree/master/2149-rearrange-array-elements-by-sign) |
 ## Matrix
 |  |
 | ------- |
@@ -45,6 +46,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0054-spiral-matrix](https://github.com/shimesh814-jpg/DSA.45/tree/master/0054-spiral-matrix) |
+| [2149-rearrange-array-elements-by-sign](https://github.com/shimesh814-jpg/DSA.45/tree/master/2149-rearrange-array-elements-by-sign) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -61,6 +63,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0088-merge-sorted-array](https://github.com/shimesh814-jpg/DSA.45/tree/master/0088-merge-sorted-array) |
 | [0151-reverse-words-in-a-string](https://github.com/shimesh814-jpg/DSA.45/tree/master/0151-reverse-words-in-a-string) |
 | [0283-move-zeroes](https://github.com/shimesh814-jpg/DSA.45/tree/master/0283-move-zeroes) |
+| [2149-rearrange-array-elements-by-sign](https://github.com/shimesh814-jpg/DSA.45/tree/master/2149-rearrange-array-elements-by-sign) |
 ## Sorting
 |  |
 | ------- |
