@@ -26,10 +26,6 @@ public:
             length = max(length,i-idx);
         }
       }
-        if(length == INT_MIN)
-        {
-            return -1;
-        }
-        return n-length;
+     return length==INT_MIN?-1:n-length;
     }
 };
